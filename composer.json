@@ -123,7 +123,7 @@
         "test-windows": "vendor\\bin\\codecept run unit",
         "compile": [			
 			"rm -r user/accounts/",
-			"rm -r user/congif/",
+			"rm -r user/config/",
             "rm -r user/data/",
             "rm -r user/pages/",
             "rm -r user/plugins/",
