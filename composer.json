@@ -116,7 +116,6 @@
     "scripts": {
         "api-17": "vendor/bin/phpdoc-md generate system/src > user/pages/14.api/default.17.md",
         "post-create-project-cmd": [			
-			"bin/grav install",
 			"rm -r user/*",
 			"php bin/grav cache --all"
 		  ],
